@@ -275,7 +275,7 @@ while True:
 
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
                     # Write Sender's email and password
-                    smtp.login('codetesting78@gmail.com', 'ayrfkteyrqinqggf')
+                    smtp.login('email@gmail.com', 'pwd')
                     smtp.send_message(msg)
                 print('Alert mail Sent to authorities')
         elif(label == 'Mask'):
