@@ -11,6 +11,6 @@ Problem: Today Face Mask has become compulsory for all the people in the world, 
 - MOBILENET V2
 - Xampp Server
 
-Objective: To Make a LIVE_STREAM MASK DETECTION SYSTEM where it detects and recognizes the face and warns that person to wear a mask and also send mail alerts to the admin when it finds someone without mask.
+Objective: To Make a LIVE_STREAM MASK DETECTION WITH A REMINDER SYSTEM where it detects and recognizes the face and warns that person to wear a mask and also send mail alerts to the admin when it finds someone without mask.
 
 
