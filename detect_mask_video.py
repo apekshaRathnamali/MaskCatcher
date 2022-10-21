@@ -261,9 +261,9 @@ while True:
                 msg = EmailMessage()
                 msg['Subject'] = 'Subject - ATTENTION!! Someone violated our facemask policy.'
                 # Write Sender's email
-                msg['From'] = 'codetesting78@gmail.com'
+                msg['From'] = 'fromemail'
                 # Write Reciever's email(Authority Email)
-                msg['To'] = 'rathnamali.apeksha@gmail.com'
+                msg['To'] = 'toemail'
                 msg.set_content(
                     'Respected Authority,\n         Some Person has been detected without a face mask. Below is the attached image of that person.')
 
@@ -275,7 +275,7 @@ while True:
 
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
                     # Write Sender's email and password
-                    smtp.login('email@gmail.com', 'pwd')
+                    smtp.login('fromemail', 'pwd')
                     smtp.send_message(msg)
                 print('Alert mail Sent to authorities')
         elif(label == 'Mask'):
